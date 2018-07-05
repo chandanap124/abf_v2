@@ -1,0 +1,6 @@
+{
+  "name": "MemberRegistration",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./MemberRegistration.js"
+}
