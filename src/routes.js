@@ -186,6 +186,14 @@ const Member = Loadable({
     loader: () => import('./views/Member/MemberRegistration'),
     loading: Loading,
 });
+
+const LoanRegistration = Loadable({
+    loader: () => import('./views/Loan/LoanRegistration'),
+    loading: Loading,
+});
+
+
+
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 const routes = [
   { path: '/', exact: true, name: 'Home', component: DefaultLayout },
@@ -230,6 +238,7 @@ const routes = [
   { path: '/users', exact: true,  name: 'Users', component: Users },
   { path: '/users/:id', exact: true, name: 'User Details', component: User },
     { path: '/member', exact: true,  name: 'Member', component: Member },
+    { path: '/loan-registration', exact: true,  name: 'Loan', component: LoanRegistration },
 ];
 
 export default routes;

@@ -23,6 +23,24 @@ export default {
           url: '/member',
           icon: 'icon-drop',
       },
+
+      {
+          title: true,
+          name: 'Loan',
+          wrapper: {            // optional wrapper object
+              element: '',        // required valid HTML5 element tag
+              attributes: {}        // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
+          },
+          class: ''             // optional class names space delimited list for title item ex: "text-center"
+      },
+      {
+          name: 'Loan Registration',
+          url: '/loan-registration',
+          icon: 'icon-drop',
+      },
+
+
+
     {
       title: true,
       name: 'Theme',
